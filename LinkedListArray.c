@@ -41,7 +41,7 @@ int pop(stack* st){
         return -1;
     }
     int x = st->top->val;
-    st->top = st->top->next;
+    st->top = st->top->next; //將現在的頂部更新為linkedlist中的下一個元素
     free(deleteNode);
     return x;
 }
