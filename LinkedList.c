@@ -37,7 +37,7 @@ Node* searchNode(Node* first, int item){ //搜尋節點
             return node;
         }
         else{
-            node = node->next;
+            node = node->next; //繼續往下一個尋找
         }
     }
     return NULL;
