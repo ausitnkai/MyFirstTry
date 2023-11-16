@@ -54,7 +54,7 @@ int main(){
     }
     push(myst, 100);
     
-    // 這邊做push
+    // 這邊做pop
     char onemoretimes = ' '; 
     do
     {
